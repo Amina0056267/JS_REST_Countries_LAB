@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
             getCountryList.textContent = countryName[i]
             list.appendChild(getCountryList);
         }
+
+        //fetchAllCountries() <- provides button without coding it in
         
         const button = document.querySelector("button");
         button.addEventListener("click", fetchAllCountries);
